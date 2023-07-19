@@ -1,0 +1,452 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+.up-nav{
+    background-color: rgb(37, 104, 37);
+    height: 1.8cm;
+}
+.upper-nav{
+    background-color: rgb(39, 99, 39);
+    height: 1.8cm;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+    width: 90%;
+
+    
+    
+}
+.upper-nav i{
+    font-size: 27px;
+    padding-right: 20PX;
+
+    
+}
+.upper-nav p{
+    font-size: 27px;
+    padding-right: 20PX;
+    font-family: sans-serif;
+}
+.space{
+    width: 30px;
+}
+.low-nav{
+    height: 4cm;
+    background-color: rgb(241, 237, 237);
+}
+.lower-nav{
+    height: 4cm;
+    background-color: rgb(241, 237, 237);
+    display: flex;
+    margin-left: 7cm;
+}
+.logo{
+    height: max-content;
+    width: max-content;
+    align-items: center;
+}
+.logo-img img{
+    height: 4cm;
+    width: 100%;
+}
+.taskbar-items{
+    margin-top: 2.5cm;
+    display: flex;
+    
+}
+.taskbar-items p{
+    font-size: 28px;
+    font-family: sans-serif;
+    padding-left: 40px;
+    font-weight: 700;
+    
+}
+.taskbar-items p:hover{
+    color: rgb(73, 73, 237);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.search-bar{
+    margin-top: 1cm;
+    margin-left: 20cm;
+    height: 2cm;
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 8px;
+   
+}
+.search-bar:hover{
+    border: groove;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.search-bar input{
+    background-color:transparent;
+    height: 2cm;
+    width: 11cm;
+    border: 0px hidden;
+    font-size: 30px;
+    color:#000000;
+
+}
+
+.search-input{
+    width: 3cm;
+    height: 2cm;
+    padding-top: 10px;
+    
+}
+.search-bar i{
+    width: 2cm;
+    font-size: 35px;
+    padding-left: 15px;
+    
+}
+.search-bar i:active {
+    transform: translateY(4px);
+}
+
+.hero-section{
+    height:max-content;
+    width: 100%;
+}
+.hero-section img{
+    height: max-content;
+    width: 100%;
+}
+.category-section{
+    height: 50cm;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.seg-one{
+    height: 22cm;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: brown; */
+    display: flex;
+    margin-top: 2cm;
+}
+.seg-two{
+    height: 23cm;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: rgb(98, 214, 66); */
+    display: flex;
+}
+.pic-card1{
+    height: 20cm;
+    width: 16cm;
+    background-color: chocolate;
+    margin: 2cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+.pic-card2{
+    height: 20cm;
+    width: 16cm;
+    background-color: rgb(95, 233, 113);
+    margin: 2cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.elents{
+    width: 100%;
+    font-size: 50px;
+    color: azure;
+    margin-top: 14cm;/
+
+}
+.capn{
+    /* background-color: #0c5423; */
+    text-align: center;
+    font-weight: 20;
+
+}
+.elents button{
+    width: 40%;
+    font-size: 34px;
+    font-weight: 600;
+    color: azure;
+    padding: 5px;
+    height: 2.3cm;
+    padding-bottom: 8px;
+    background-color: transparent;
+    border:5px solid white;
+    margin-left: 30%;
+}
+.elents button:hover{
+    cursor: pointer;
+    color: #ffff;
+    background-color: black;
+    transform: scale(1.2);
+}
+.banner-section{
+    height: auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+.banner-section img{
+    height: auto;
+    width: 100%;
+}
+.mens-womes-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.mens{
+    height: 25cm;
+    float: left;
+    width: 50%;
+    margin: 5px;
+    background-size: cover;
+    background-image: url("m_apparel_banner.png");
+
+}
+.womens{
+    height:25cm;
+    float: left;
+    width: 50%;
+    margin: 5px;
+    background-size: cover;
+    background-image: url("f_apparel_banner.png");
+    
+}
+.elements{
+    margin-top: 20cm;
+    margin-left: 4cm;
+}
+
+.elements h3{
+    font-size: 50px;
+    color: aliceblue;
+}
+.elements button{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: rgb(38, 89, 18);
+    border: 5px solid rgb(38, 89, 18);
+}
+.elements button:hover{
+    cursor: pointer;
+    background-color: rgb(38, 89, 18);
+    transform: scale(1.1);
+}
+.elements-right{
+    padding-left: 20cm;
+    justify-content: end;
+}
+.mens-style-section{
+    height: 20cm;
+    width: 100%;
+    /* background-color: brown; */
+
+}
+.mensstyle-container{
+    height: 20cm;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: blue; */
+    display: flex;
+    
+    
+}
+.style-elements{
+    display: flex;
+    padding-left: 6cm;
+    padding-top: 2cm;
+
+}
+.style-card{
+    height:17cm;
+    width: 11cm;
+    /* background-color: chartreuse; */
+    margin: 10px;
+    
+}
+.style-caption{
+    font-family: sans-serif;
+    font-size:26px;
+    margin-top: 10px;
+}
+.wood-family-section{
+    height: 20cm;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    margin: 8px;
+}
+.wood-family-container{
+    height: 20cm;
+    width: 33.33%;
+    background-color: aqua;
+    
+}
+.wood-family-container img{
+    width: 100%;
+    height: 100%;   
+}
+.wood-family-container1{
+    height: 20cm;
+    width: 33.33%;
+    background-image: url("bag_cat_banner.png");
+    background-size: 100%;
+}
+.wood-family-container2{
+    height: 20cm;
+    width: 33.33%;
+    background-image: url("innerwear_cat_banner.png");
+    background-size: 100%;
+}
+.wood-family-container3{
+    height: 20cm;
+    width: 33.33%;
+    background-image: url("beltsandmore_cat_banner.png");
+    background-size: 100%;
+}
+.cap{
+    margin-top: 14cm;
+    margin-left: 37%;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: aliceblue;
+    
+}
+.but{
+    padding: 0.5cm;
+    margin-left: 10cm;
+    margin-top: 0.5cm;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 5px solid #ffff;
+    color: #ffff;
+}
+.but:hover{
+    cursor: pointer;
+    color: #ffff;
+    background-color: black;
+    transform: scale(1.2);
+}
+.elements-right button{
+   margin-left: 4.5cm;
+}
+.about-section{
+    height: 25cm;
+    background-color:#0c5423;
+    /* margin: 2%; */
+}
+.top-div{
+    color: aliceblue;
+    height: 6cm;
+    width: max-content;
+    background-color:#0c5423;
+    margin-left: 2cm;
+    padding-top: 1cm;
+
+}
+.second-div{
+    height: 13cm;
+    background-color: aliceblue;
+    display: flex;
+}
+.sec-one{
+    height: 100%;
+    width: 50%;
+    background-color: #0c5423;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.sec-two{
+    height: 100%;
+    width: 50%;
+    background-color: #0c5423;
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+.col-3{
+    color: #ffff;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.4cm;
+    word-spacing: 4px;
+}
+.socialmeida-div{
+    height: 2cm;
+    width: 100%;
+    /* background-color: aquamarine; */
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 1cm;
+}
+.socialmeida-div i{
+    padding-left: 2cm;
+}
+.socialmeida-div i:hover{
+    color: rgb(51, 111, 229);
+}
+.lower-div{
+    height: 2cm;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.terms-servi{
+    height: 2cm;
+    width: 80%;
+    /* background-color: blue; */
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-left: 1cm;
+    font-size: 30px;
+}
+.terms-servi p{
+    margin-left: 2cm;
+}
+.copyright{
+    height: 2cm;
+    width: 20%;
+    /* background-color: rgb(138, 138, 182); */
+    color: #ffff;
+    font-size: 30px;
+    margin-top: 0.4cm;
+
+}
+.input-email input{
+    width: 10cm;
+    height: 2cm;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+.input-email button{
+    width: 3cm;
+    height: 2cm;
+    padding-top: 10px;
+    font-size: 30px;
+    border-radius: 8px;
+    
+    
+    
+}
+.input-email input:hover{
+    background-color:rgb(173, 185, 241);
+  }
+  .input-email button:hover{
+    background-color:rgb(41, 136, 38);
+    color: #ffff;
+    transform: scale(0.9);
+  }
